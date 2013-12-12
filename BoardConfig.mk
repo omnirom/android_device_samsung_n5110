@@ -27,8 +27,8 @@ TARGET_KERNEL_CONFIG := cyanogenmod_n5110_defconfig
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Recovery
-# TARGET_RECOVERY_FSTAB := device/samsung/kona-common/rootdir/fstab.smdk4x12
-# RECOVERY_FSTAB_VERSION := 2
+TARGET_RECOVERY_FSTAB := device/samsung/kona-common/rootdir/fstab.smdk4x12
+RECOVERY_FSTAB_VERSION := 2
 # BOARD_RECOVERY_SWIPE := true
 # BOARD_RECOVERY_SWIPE_SWAPXY := true
 
@@ -53,4 +53,3 @@ SP2_MOUNTABLE := 0
 TARGET_USERIMAGES_USE_EXT4 := true
 RECOVERY_TOUCHSCREEN_FLIP_Y := true
 RECOVERY_TOUCHSCREEN_SWAP_XY := true
-# TARGET_RECOVERY_FSTAB := device/samsung/n5110/twrp.fstab

@@ -1,26 +1,20 @@
 [
     {
-		"remote":	"omnirom",
-        "repository": "android_device_samsung_smdk4412-common",
+		"remote":	"github",
+        "repository": "CyanogenMod/android_device_samsung_smdk4412-common",
         "target_path": "device/samsung/smdk4412-common",
-		"revision": "android-4.4"
-    },
-    {
-		"remote":	"CyanogenMod",
-        "repository": "android_device_samsung_kona-common",
-        "target_path": "device/samsung/kona-common",
 		"revision": "cm-11.0"
     },
     {
-		"remote":	"omnirom",
-        "repository": "android_kernel_samsung_smdk4412",
-        "target_path": "kernel/samsung/smdk4412",
-		"revision": "android-4.4"
+		"remote":	"github",
+        "repository": "ryukiri/android_device_samsung_kona-common",
+        "target_path": "device/samsung/kona-common",
+		"revision": "omni-4.4"
     },
     {
-		"remote":	"CyanogenMod",
-        "repository": "android_packages_apps_SamsungServiceMode",
-        "target_path": "packages/apps/SamsungServiceMode",
+		"remote":	"github",
+        "repository": "CyanogenMod/android_kernel_samsung_smdk4412",
+        "target_path": "kernel/samsung/smdk4412",
 		"revision": "cm-11.0"
     },
     {
