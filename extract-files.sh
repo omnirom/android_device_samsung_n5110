@@ -54,6 +54,9 @@ LOCAL_PATH := vendor/__VENDOR__/__DEVICE__
 PRODUCT_COPY_FILES += \\
 EOF
 
+PRODUCT_COPY_FILES += \\
+    \$(LOCAL_PATH)/twrp.fstab:/etc/twrp.fstab
+
 LINEEND=" \\"
 COUNT=`cat proprietary-files.txt | grep -v ^# | grep -v ^$ | wc -l | awk {'print $1'}`
 for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
