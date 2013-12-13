@@ -36,7 +36,7 @@ RECOVERY_FSTAB_VERSION := 2
 -include vendor/samsung/n5110/BoardConfigVendor.mk
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := konawifi,n5110,GT-N5110,konawifixx
+TARGET_OTA_ASSERT_DEVICE := konawifixx,n5110,GT-N5110,konawifi
 
 # TWRP Recovery
 DEVICE_RESOLUTION := 1280x800
