@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6b8b61a3_7e63f20b",
+        "filename": "omni.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2014-01-01T13:10:33Z",
+      "side": 1,
+      "message": "Nope. Proprietaries don\u0027t go in here.",
+      "revId": "53fa0f1cfb9f0a03c704ef46f047dfb43eec4c2f",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
