@@ -9,7 +9,7 @@
 	"remote":	"omnirom",
         "repository": 	"android_device_samsung_kona-common",
         "target_path": 	"device/samsung/kona-common",
-	"revision": 	"omni-4.4"
+	"revision": 	"android-4.4"
     },
     {
 	"remote":	"omnirom",
